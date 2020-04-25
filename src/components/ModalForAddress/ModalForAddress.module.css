@@ -1,0 +1,68 @@
+.Overlay {
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1200;
+  text-align: center;
+}
+
+.Modal {
+  color: rgb(130, 5, 141);
+  width: 100%;
+  max-width: 300px;
+  font-weight: 700;
+  padding: 20px;
+  height: 190px;
+  background-color: rgba(3, 195, 209, 0.952);
+  font-family: "Montserrat", sans-serif;
+}
+.Modal2 {
+  color: rgb(130, 5, 141);
+  width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+  font-weight: 700;
+  padding: 10px;
+  height: 170px;
+  background-color: rgba(3, 195, 209, 0.952);
+  font-family: "Montserrat", sans-serif;
+  transition: 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+.ListItem {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: rgba(0, 238, 255, 0.952);
+  margin-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+.ListItemText {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.ListItemText2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  transition: 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+.none {
+  opacity: 0;
+}
+.author {
+  text-align: center;
+  opacity: 1;
+  transition: 0.6s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+.author > a {
+  text-decoration: none;
+  font-size: 19px;
+  cursor: pointer;
+  color: rgb(200, 2, 218);
+}

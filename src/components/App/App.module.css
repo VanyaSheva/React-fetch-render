@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(3, 195, 209, 0.205);
+}
+.Wrapper {
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}

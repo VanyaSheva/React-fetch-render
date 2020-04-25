@@ -1,0 +1,73 @@
+.ListItem {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  background-color: rgba(0, 238, 255, 0.952);
+  margin-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+.Image {
+  display: block;
+  width: 50px;
+  height: 50px;
+  align-self: flex-end;
+  margin-bottom: 15px;
+}
+.ListItemText {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.ButtonContainer {
+  display: flex;
+  justify-content: space-around;
+}
+.Button {
+  font-size: 17px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  background-color: rgba(8, 4, 255, 0.37);
+  font-family: "Raleway", sans-serif;
+}
+.Button:before {
+  content: "";
+  position: absolute;
+  border: rgba(8, 4, 255, 0.37) solid 4px;
+  top: -12px;
+  right: -12px;
+  bottom: -12px;
+  left: -12px;
+  opacity: 0;
+  -webkit-animation-duration: 1s;
+  animation-duration: 0.5s;
+}
+.Button:hover:before,
+.Button:focus:before,
+.Button:active:before {
+  -webkit-animation-name: hvr-ripple-in;
+  animation-name: hvr-ripple-in;
+}
+@-webkit-keyframes hvr-ripple-in {
+  100% {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+  }
+}
+@keyframes hvr-ripple-in {
+  100% {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.6;
+  }
+}
