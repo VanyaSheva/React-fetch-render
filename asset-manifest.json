@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-fetch-render/static/css/main.f0ed4d97.chunk.css",
+    "main.js": "/React-fetch-render/static/js/main.0341f04b.chunk.js",
+    "main.js.map": "/React-fetch-render/static/js/main.0341f04b.chunk.js.map",
+    "runtime-main.js": "/React-fetch-render/static/js/runtime-main.7f87b9f3.js",
+    "runtime-main.js.map": "/React-fetch-render/static/js/runtime-main.7f87b9f3.js.map",
+    "static/js/2.b8f89381.chunk.js": "/React-fetch-render/static/js/2.b8f89381.chunk.js",
+    "static/js/2.b8f89381.chunk.js.map": "/React-fetch-render/static/js/2.b8f89381.chunk.js.map",
+    "index.html": "/React-fetch-render/index.html",
+    "precache-manifest.680d61e7e0a1e3e3f255acc1afc16325.js": "/React-fetch-render/precache-manifest.680d61e7e0a1e3e3f255acc1afc16325.js",
+    "service-worker.js": "/React-fetch-render/service-worker.js",
+    "static/css/main.f0ed4d97.chunk.css.map": "/React-fetch-render/static/css/main.f0ed4d97.chunk.css.map",
+    "static/js/2.b8f89381.chunk.js.LICENSE.txt": "/React-fetch-render/static/js/2.b8f89381.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f87b9f3.js",
+    "static/js/2.b8f89381.chunk.js",
+    "static/css/main.f0ed4d97.chunk.css",
+    "static/js/main.0341f04b.chunk.js"
+  ]
+}
